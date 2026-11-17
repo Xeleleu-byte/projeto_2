@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A CosmosDEV cria sites profissionais, landing pages e identidades visuais sob medida para destacar o seu negócio na internet."
+    />
+    <meta name="theme-color" content="#0B1016" />
+    <title>CosmosDEV | Sites, Landing Pages e Identidade Visual</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- CABEÇALHO E NAVEGAÇÃO -->
+    <header class="site-header">
+      <a class="logo-link" href="#inicio" aria-label="CosmosDEV — voltar ao início">
+        <img src="assets/logo-cosmosdev.svg" alt="CosmosDEV" class="logohead" />
+      </a>
+
+      <nav class="navbar" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contato" class="solicitarBotao btn-header">
+        Solicitar Orçamento
+        <img src="assets/09-seta-direita.png" alt="" aria-hidden="true" />
+      </a>
+    </header>
+
+    <main>
+      <!-- INÍCIO / HERO -->
+      <section id="inicio" class="inicio" aria-labelledby="titulo-inicio">
+        <div class="hero-conteudo">
+          <div class="headDev">
+            <img src="assets/07-desenvolvimento.png" alt="" aria-hidden="true" />
+            <p>DESENVOLVIMENTO WEB</p>
+          </div>
+
+          <h1 id="titulo-inicio">
+            Sites profissionais <br />
+            que geram <span class="verde-neon">resultados.</span>
+          </h1>
+          <p class="hero-descricao">
+            Desenvolvimento de sites, landing pages e soluções visuais sob medida
+            para o seu negócio crescer na internet.
+          </p>
+
+          <div class="botoesInicio">
+            <a href="#contato" class="solicitarBotao">
+              Solicitar Orçamento
+              <img src="assets/09-seta-direita.png" alt="" aria-hidden="true" />
+            </a>
+            <a href="#portfolio" class="btn-portfolio">
+              <img src="assets/15-play.png" alt="" aria-hidden="true" />
+              Ver Portfólio
+            </a>
+          </div>
+
+          <ul class="diferenciais" aria-label="Diferenciais da CosmosDEV">
+            <li>
+              <img src="assets/rocket.png" alt="" aria-hidden="true" />
+              Performance
+            </li>
+            <li>
+              <img src="assets/seguranca.png" alt="" aria-hidden="true" />
+              Segurança
+            </li>
+            <li>
+              <img src="assets/04-suporte-personalizado.png" alt="" aria-hidden="true" />
+              Suporte Personalizado
+            </li>
+          </ul>
+        </div>
+
+        <!-- Remova esta imagem se preferir montar o visual do hero apenas com CSS. -->
+        <img
+          class="hero-visual"
+          src="assets/hero-dev-ui.svg"
+          alt="Prévia estilizada de uma interface de desenvolvimento web"
+          decoding="async"
+        />
+      </section>
+
+      <!-- SERVIÇOS -->
+      <section id="servicos" class="secao-servicos" aria-labelledby="titulo-servicos">
+        <p class="secao-etiqueta verde-neon">NOSSOS SERVIÇOS</p>
+        <h2 id="titulo-servicos">
+          Soluções completas para a sua
+          <span class="verde-neon">presença digital</span>
+        </h2>
+        <p>
+          Do planejamento ao lançamento, entregamos projetos modernos,
+          funcionais e com a identidade do seu negócio.
+        </p>
+
+        <div class="divCards servicos-cards">
+          <article class="card">
+            <img src="assets/developer.png" alt="" aria-hidden="true" loading="lazy" />
+            <h3>Criação de Sites</h3>
+            <p>Sites modernos, responsivos e focados em conversão.</p>
+          </article>
+
+          <article class="card">
+            <img src="assets/landinggrenn.png" alt="" aria-hidden="true" loading="lazy" />
+            <h3>Landing Pages</h3>
+            <p>Páginas estratégicas para captar leads e aumentar suas vendas.</p>
+          </article>
+
+          <article class="card">
+            <img src="assets/pencil.png" alt="" aria-hidden="true" loading="lazy" />
+            <h3>Identidade Visual</h3>
+            <p>Criação de logotipo, paleta de cores e materiais visuais para sua marca.</p>
+          </article>
+
+          <article class="card">
+            <img src="assets/fone-arqu.png" alt="" aria-hidden="true" loading="lazy" />
+            <h3>Suporte Personalizado</h3>
+            <p>Acompanhamento próximo, com ajustes e suporte pós-entrega.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- PORTFÓLIO -->
+      <section id="portfolio" class="secao-portfolio" aria-labelledby="titulo-portfolio">
+        <p class="secao-etiqueta verde-neon">PORTFÓLIO</p>
+        <h2 id="titulo-portfolio">
+          Projetos em <span class="verde-neon">destaque</span>
+        </h2>
+        <p>Conheça algumas das experiências digitais do nosso portfólio.</p>
+
+        <div class="divCards portfolio-cards">
+          <!-- Crie as páginas abaixo antes de publicar os links. -->
+          <article class="card projeto">
+            <a href="portfolio/seu-butequin/index.html" aria-label="Ver projeto Seu Butequin">
+              <img
+                src="assets/portfolio-seu-butequin.svg"
+                alt="Prévia do website Seu Butequin"
+                loading="lazy"
+              />
+              <h3>Seu Butequin</h3>
+              <p>Bar e Restaurante</p>
+            </a>
+          </article>
+
+          <article class="card projeto">
+            <a href="portfolio/art-conceito/index.html" aria-label="Ver projeto Art & Conceito">
+              <img
+                src="assets/portfolio-art-conceito.svg"
+                alt="Prévia do website Art & Conceito"
+                loading="lazy"
+              />
+              <h3>Art &amp; Conceito</h3>
+              <p>Design e Marketing</p>
+            </a>
+          </article>
+
+          <article class="card projeto">
+            <a href="portfolio/armando-alves/index.html" aria-label="Ver projeto Armando Alves Advogado">
+              <img
+                src="assets/portfolio-armando-alves.svg"
+                alt="Prévia do website Armando Alves Advogado"
+                loading="lazy"
+              />
+              <h3>Armando Alves Advogado</h3>
+              <p>Advocacia e Consultoria Jurídica</p>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- PROCESSO -->
+      <section id="processo" class="processo-etapas" aria-labelledby="titulo-processo">
+        <p class="secao-etiqueta verde-neon">NOSSO PROCESSO</p>
+        <h2 id="titulo-processo">
+          Do planejamento à entrega, com
+          <span class="verde-neon">total transparência</span>
+        </h2>
+        <p>Um processo simples, organizado e com você em todas as etapas.</p>
+
+        <ol class="etapas">
+          <li class="etapa">
+            <img src="assets/cardfinal-1.png" alt="" aria-hidden="true" loading="lazy" />
+            <span class="etapa-numero" aria-hidden="true">1</span>
+            <h3>Entendimento da sua ideia</h3>
+            <p>Conversamos sobre seus objetivos, público e necessidades.</p>
+          </li>
+          <li class="etapa">
+            <img src="assets/cardfinal-2.png" alt="" aria-hidden="true" loading="lazy" />
+            <span class="etapa-numero" aria-hidden="true">2</span>
+            <h3>Apresentação da ideia e alinhamento</h3>
+            <p>Apresentamos a proposta visual, com espaço para ajustes e melhorias.</p>
+          </li>
+          <li class="etapa">
+            <img src="assets/cardfinal-3.png" alt="" aria-hidden="true" loading="lazy" />
+            <span class="etapa-numero" aria-hidden="true">3</span>
+            <h3>Desenvolvimento</h3>
+            <p>Colocamos o projeto em prática, com foco em qualidade, performance e responsividade.</p>
+          </li>
+          <li class="etapa">
+            <img src="assets/cardfinal-4.png" alt="" aria-hidden="true" loading="lazy" />
+            <span class="etapa-numero" aria-hidden="true">4</span>
+            <h3>Entrega</h3>
+            <p>Seu site no ar, pronto para gerar resultados, com suporte pós-entrega.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- CONTATO / CHAMADA FINAL -->
+      <section id="contato" class="cardEnd" aria-labelledby="titulo-contato">
+        <div class="card">
+          <img src="assets/16-raio.png" alt="" aria-hidden="true" loading="lazy" />
+          <div class="cardText">
+            <h2 id="titulo-contato">Vamos tirar o seu projeto do papel?</h2>
+            <p>
+              Solicite um orçamento e descubra como podemos levar o seu negócio
+              para o próximo nível na internet.
+            </p>
+          </div>
+          <!-- Substitua 55DDDNUMERO pelo WhatsApp comercial antes de publicar. -->
+          <a
+            class="solicitarBotao solicitarOrcamEnd"
+            href="https://wa.me/5584991370294?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20site."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Solicitar Orçamento
+            <img src="assets/09-seta-direita.png" alt="" aria-hidden="true" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+      <a href="#inicio" aria-label="CosmosDEV — voltar ao início">
+        <img src="assets/logo-cosmosdev.svg" alt="CosmosDEV" class="logorodape" />
+      </a>
+      <nav aria-label="Navegação do rodapé">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <hr />
+      <p>&copy; 2026 CosmosDEV. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
